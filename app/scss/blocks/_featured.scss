@@ -54,6 +54,10 @@
       margin: 50px auto;
       padding: 18px 0;
     };
+    &:hover{
+      background-color: #e5dbdb;
+      transition: all .3s;
+    }
   }
   .owl-nav{
     button.owl-prev, button.owl-next{
@@ -67,6 +71,7 @@
       top: calc(50% - 49px);
       cursor: pointer;
       transform: translateY(-50%);
+      outline: none;
     }
     button.owl-prev{
       &:hover{

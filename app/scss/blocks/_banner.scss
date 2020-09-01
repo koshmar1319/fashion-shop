@@ -30,6 +30,11 @@
       padding: 20px 0;
       margin: 35px auto 0px;
     };
+    &:hover{
+      background-color: $black;
+      color: $white;
+      transition: all 0.4s;
+    }
   }
 }
 
@@ -66,7 +71,8 @@
 
 @media (max-width: 880px){
   .banner{
-    background-position: #00b7d9;
+    background-color: #00b7d9;
+    background-image: none;
     .banner__information{
       flex-basis: 100%;
       padding: 0 10px;

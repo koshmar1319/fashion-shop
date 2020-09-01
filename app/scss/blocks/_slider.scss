@@ -55,13 +55,18 @@
         border-radius: 50%;
         margin-right: 20px;
         position: relative;
-        &:first-of-type{
+        &:hover{
           background-color: $black;
+          color: $white;
+          svg{
+            fill: #fff;
+            transition: all 1s;
+          }
         }
         &:last-of-type{
           margin-right: 0;
         }
-        img{
+        svg{
           position: absolute;
           left: 50%;
           top: 50%;
@@ -85,6 +90,7 @@
       top: 50%;
       cursor: pointer;
       transform: translateY(-50%);
+      outline: none;
     }
     button.owl-prev{
       &:hover{
@@ -169,6 +175,10 @@
         font-size: 30px;
         line-height: 40px;
       }
+    }
+    .slider__btn{
+      margin: 0 auto 12px;
+      padding: 15px 10px;
     }
   }
 }
