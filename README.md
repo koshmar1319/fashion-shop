@@ -3,6 +3,7 @@
 <kbd> <img width="900" height="auto" align="center" alt="Превью проекта" src="./fashion_shop_preview.jpg"> </kbd>
 
 ### Описание:
+Магазин модной одежды.
 
 [Макет проекта Photoshop](https://drive.google.com/file/d/1EpuHtdm9ZOKKaCT1f5ufMMmwtRjPrUDc/view?usp=sharing "ссылка на макет")
 
